@@ -27,6 +27,8 @@ html, body{
     border-radius: 50%;
 }
 
+
+
 #header .profile h1{
     font-size: 24px;
     margin: 0;
@@ -148,6 +150,7 @@ section#inicio div#arraste a{
     left:0
 }
 
+
 @media (max-width: 1024px){
 
     #header{
@@ -167,6 +170,11 @@ section#inicio div#arraste a{
     #main{
         margin-left: 0;
     }
+
+    .p-5{
+        padding: 0.5rem !important;
+    }
+
 }
 
 *::-webkit-scrollbar{
